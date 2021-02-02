@@ -13,6 +13,10 @@ namespace BankEncapsulation
         {
             balance += deposit;
         }
+        public void Withdrawt(double withdrawal)
+        {
+            balance -= withdrawal;
+        }
 
         public void GetBalance()
         {
